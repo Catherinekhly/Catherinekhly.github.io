@@ -70,15 +70,11 @@ position: absolute;
   padding: 100px;
 }
 .font-size {
-  font-size:30px;
+  font-size:20px;
 }
 
 .font-weight {
   font-weight: 700;
-}
-
-.font-style {
-  font-style: italic;
 }
 
 .font-variant {
@@ -87,4 +83,75 @@ font-variant:small-caps;
 
 .text-shadow {
   text-shadow: 5px 5px 1px gray;
+}
+
+.upper-menu {
+  width: 100%;
+  background: #77c3d2;
+  position: fixed;
+}
+
+.menu-nav {
+position: absolute;
+
+}
+
+.content {
+  padding-top: 100px;
+}
+
+.aside-menu {
+  position: absolute;
+  background: #e4e58b;
+   padding: 10px;
+    margin-top: 20px;
+   width: 200px;
+   height: 500px;
+   right: 50px;
+   overflow: auto;
+}
+
+.content-blocks {
+  padding-top: 10px;
+}
+
+.content-mini-blocks {
+width: 70%;
+height: 200px;
+border: 2px solid grey;
+border-color: #eb474a;
+overflow: scroll;
+margin-top: 10px;
+padding-left: 10px;
+text-align: left;
+font-family: 'PT Sans', sans-serif;
+}
+
+.font-style {
+    font-size: 36px;
+    color: white;
+    text-decoration: overline;
+    font-family: 'Merriweather', serif;
+}
+
+.style-links {
+color: white;
+}
+
+.style-links-aside {
+color: #333;
+}
+
+.heading-h3{
+color: #333;
+font-family: 'Merriweather', serif;
+}
+
+.heading-h2{
+color: #333;
+font-family: 'Merriweather', serif;
+}
+
+.body-color {
+  background-color: #f2fafb;
 }
